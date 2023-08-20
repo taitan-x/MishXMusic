@@ -24,25 +24,25 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᴀʟᴏɴᴇ x ᴍᴜsɪᴄ")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "☆ 𝐌ιѕн x 𝐌ᴜsɪᴄ ☆")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6079943111").split())
+    map(int, getenv("OWNER_ID", "5800545430").split())
 )
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/TeamAloneOp/AloneX")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/MISHSINGH19/MishXMusic")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/AloneXBots")
+    "SUPPORT_CHANNEL", "https://t.me/public_groups_link")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/AlonesHeaven")
+    "SUPPORT_GROUP", "https://t.me/HINDI_FRIENDS_CHATTING_ROOM")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -104,7 +104,7 @@ LOG = 2
 LOG_FILE_NAME = "ᴀʟᴏɴᴇ log.txt"
 adminlist = {}
 lyrical = {}
-DEV = 6045293810
+DEV = 6079943111
 chatstats = {}
 userstats = {}
 clean = {}
@@ -114,7 +114,7 @@ confirmer = {}
 
 autoclean = []
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/b15c198fb79ce6e71c5b0.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/04836e96bc19344e444d3.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
